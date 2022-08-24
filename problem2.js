@@ -9,7 +9,7 @@ Print the result.*/
 
 const friends = ['Iqram', 'Sagor', 'Sadman', 'Bushra', 'Yash', 'KEU NAI'];
 
-const aotherArrowFunction = (friendList) => {
+const aotherArrowFunction = friendList => {
     const newArray = [];
     for(i = 0; i < friendList.length; i++){
         if(friendList[i].length % 2 == 0){

@@ -6,7 +6,7 @@ Print the result. */
 
 const arrayItems = [1,2,3,4,5];
 
-const otherArrowFunction = (array) => {
+const otherArrowFunction = array => {
     let sum = 0;
     for(i = 0; i < array.length; i++){
         const squ = Math.pow(array[i] , 2);
